@@ -1,10 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { LuCode2, LuGamepad2, LuLaptop } from "react-icons/lu";
+import beetifyImg from "@/public/beatify.jpg";
+import anmieWorld from "@/public/anmeWorld.jpg";
+import octane from "@/public/octane.jpg";
 
 export const links = [
   {
@@ -35,52 +33,77 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Started focusing on Game Development",
+    location: "Remote",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Began exploring game development using Construct 2, creating custom behaviors, animations, and interactive mechanics to build engaging 2D games.",
+    icon: React.createElement(LuGamepad2),
+    date: "2020",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Worked as a Front-End Developer focusing on building scalable web apps using React, Next.js, and Tailwind CSS. Gained strong experience in creating responsive, modern UIs and optimizing performance.",
+    icon: React.createElement(LuCode2),
+    date: "2024 - 2025",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Front-End & Mobile Developer",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Currently working as a Front-End Web and Mobile Developer, building production-ready apps with React, Next.js, Tailwind CSS, and React Native. Also gained hands-on experience with back-end development, APIs, and database integrations.",
+    icon: React.createElement(LuLaptop),
+    date: "2025 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Beatify",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Beatify is a modern music discovery app that lets you discover, search, and play your favorite songs",
+    tags: [
+      "Mobile App",
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "React Query",
+      "Style Sheet",
+      "Redux",
+    ],
+    imageUrl: beetifyImg,
+    link: "https://github.com/mostafa0x/Beatify-MobileApp",
   },
   {
-    title: "rmtDev",
+    title: "Anime World",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Anime World is your gateway to the anime universe!Browse, search, and explore your favorite anime series, characters, and trailers ",
+    tags: [
+      "Mobile App",
+      "React Native ",
+      "TypeScript",
+      "Expo",
+      "React Query",
+      "Redux",
+    ],
+    imageUrl: anmieWorld,
+    link: "https://github.com/mostafa0x/Anmie-Wolrd-MobileApp",
   },
   {
-    title: "Word Analytics",
+    title: "Octane",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      " mobile app that allows employees to upload their NFC line deliveries quickly and easily, with a connected dashboard to track, review",
+    tags: [
+      "Mobile App",
+      "React Native ",
+      "TypeScript",
+      "Expo",
+      "React Query",
+      "Redux",
+    ],
+    imageUrl: octane,
+    link: "https://github.com/mostafa0x/Octane",
   },
 ] as const;
 
@@ -90,18 +113,18 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "React Native",
+  "React Query",
+  "Expo",
   "Next.js",
   "Node.js",
   "Git",
+  "Git hub",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "Style Sheet React Native",
+  "Redux Toolkit",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "MongoDB",
+  "Responsive Dimensions for Mobile",
+  "Responsive Web design",
 ] as const;
