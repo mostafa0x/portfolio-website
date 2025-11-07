@@ -3,6 +3,9 @@ import { LuCode2, LuGamepad2, LuLaptop } from "react-icons/lu";
 import beetifyImg from "@/public/beatify.jpg";
 import anmieWorld from "@/public/anmeWorld.jpg";
 import octane from "@/public/octane.jpg";
+import duckAi from "@/public/duckai.PNG";
+import naqla from "@/public/naqla.png";
+import ox from "@/public/xo.png";
 
 export const links = [
   {
@@ -104,6 +107,43 @@ export const projectsData = [
     ],
     imageUrl: octane,
     link: "https://github.com/mostafa0x/Octane",
+  },
+  {
+    title: "Duck Ai",
+    description:
+      "Duck Chat Bot is a modern mobile application  offering a fast and interactive chat experience with a smart AI assistant.",
+    tags: ["Mobile App", "React Native ", "TypeScript", "Expo", "Ai Chatbot"],
+    imageUrl: duckAi,
+    link: "https://github.com/mostafa0x/Duck-Chat-Bot-Mobile-App",
+  },
+  {
+    title: "Naqla",
+    description:
+      "A smart, responsive chess clock app with real-time sounds, player statistics, and a global leaderboard.",
+    tags: [
+      "Mobile App",
+      "React Native ",
+      "TypeScript",
+      "Expo",
+      "Redux toolkit",
+      "Expo Audio",
+    ],
+    imageUrl: naqla,
+    link: "https://github.com/mostafa0x/Naqla-Mobile-App",
+  },
+  {
+    title: "Skelly Verse",
+    description: " Unique Skeleton Theme – A fresh, spooky take on Tic-Tac-Toe",
+    tags: [
+      "Mobile App",
+      "React Native ",
+      "TypeScript",
+      "Expo",
+      " Reanimated 3",
+      "Moti",
+    ],
+    imageUrl: ox,
+    link: "https://github.com/mostafa0x/Skelly-Verse-MobileApp",
   },
 ] as const;
 

@@ -8,15 +8,16 @@ import { useSectionInView } from "@/lib/hooks";
 import Link from "next/link";
 import { useTheme } from "@/context/theme-context";
 
-export default function Projects() {
+export default function Projects({ from }: { from: "home" | "projects" }) {
   const { ref } = useSectionInView("Projects", 0.5);
   const { theme } = useTheme();
+  const projects = from === "home" ? projectsData.slice(0, 3) : projectsData;
 
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
-      <SectionHeading>My projects</SectionHeading>
+      <SectionHeading>My projects </SectionHeading>
       <div>
-        {projectsData.map((project, index) => (
+        {projects.map((project, index) => (
           <React.Fragment key={index}>
             <Project {...project} />
           </React.Fragment>
