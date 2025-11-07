@@ -3,7 +3,7 @@ import { LuCode2, LuGamepad2, LuLaptop } from "react-icons/lu";
 import beetifyImg from "@/public/beatify.jpg";
 import anmieWorld from "@/public/anmeWorld.jpg";
 import octane from "@/public/octane.jpg";
-import duckAi from "@/public/duckai.PNG";
+import duckAi from "@/public/duckai.png";
 import naqla from "@/public/naqla.png";
 import ox from "@/public/xo.png";
 
