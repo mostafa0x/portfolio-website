@@ -167,4 +167,7 @@ export const skillsData = [
   "MongoDB",
   "Responsive Dimensions for Mobile",
   "Responsive Web design",
+  "Moti React Native",
+  "Motion"
+  ,"Figma"
 ] as const;
