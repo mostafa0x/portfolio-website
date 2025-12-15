@@ -168,16 +168,8 @@ export const skillsData = [
   "Responsive Dimensions for Mobile",
   "Responsive Web design",
   "Moti React Native",
-<<<<<<< HEAD
   "Motion",
   "Figma",
   "Jest",
   "Testing Library",
-=======
-  "Motion"
-  ,"Figma",
-  "Jest"
-  "Testing Library",
-  
->>>>>>> 4597948c162617a4c4f1ff9f9af1f4a46dad4b00
 ] as const;
