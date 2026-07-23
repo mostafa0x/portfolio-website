@@ -6,6 +6,8 @@ import octane from "@/public/octane.jpg";
 import duckAi from "@/public/duckAi.png";
 import naqla from "@/public/naqla.png";
 import ox from "@/public/xo.png";
+import moonlightImg from "@/public/moonlight.png";
+
 
 export const links = [
   {
@@ -74,9 +76,9 @@ export const projectsData = [
       "Tailwind css",
     ],
     imageUrl: moonlightImg,
-    link: "https://github.com/mostafa0x/Beatify-MobileApp",
+    link: "https://github.com/mostafa0x/Moonlight-Website",
   },
-  ,{
+  {
     title: "Beatify",
     description:
       "Beatify is a modern music discovery app that lets you discover, search, and play your favorite songs",
