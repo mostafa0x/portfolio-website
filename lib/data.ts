@@ -157,6 +157,8 @@ export const skillsData = [
   "React Query",
   "Expo",
   "Next.js",
+  "Nuxt.js",
+  "Vue.js",
   "Node.js",
   "Git",
   "Git hub",
