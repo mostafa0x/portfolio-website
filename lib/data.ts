@@ -67,13 +67,12 @@ export const projectsData = [
  {
     title: "Moonlight",
     description:
-      "Frontend Development only. The live demo is currently limited because the backend database was intentionally disabled at the client's request.Moonlight is a tourism platform that helps users discover and plan personalized travel experiences across Egypt, featuring historical landmarks, museums, the Pyramids, Alexandria, and Nile cruises through a modern, responsive interface.",
+      "Frontend Development only.Moonlight is a tourism platform that helps users discover and plan personalized travel experiences across Egypt, responsive interface.",
     tags: [
       "Website",
       "React",
       "Next js",
       "TypeScript",
-      "Tailwind css",
     ],
     imageUrl: moonlightImg,
     link: "https://github.com/mostafa0x/Moonlight-Website",
