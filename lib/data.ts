@@ -94,21 +94,6 @@ export const projectsData = [
     link: "https://github.com/mostafa0x/Beatify-MobileApp",
   },
   {
-    title: "Anime World",
-    description:
-      "Anime World is your gateway to the anime universe!Browse, search, and explore your favorite anime series, characters, and trailers ",
-    tags: [
-      "Mobile App",
-      "React Native ",
-      "TypeScript",
-      "Expo",
-      "React Query",
-      "Redux",
-    ],
-    imageUrl: anmieWorld,
-    link: "https://github.com/mostafa0x/Anmie-Wolrd-MobileApp",
-  },
-  {
     title: "Octane",
     description:
       " mobile app that allows employees to upload their NFC line deliveries quickly and easily, with a connected dashboard to track, review",
@@ -122,6 +107,21 @@ export const projectsData = [
     ],
     imageUrl: octane,
     link: "https://github.com/mostafa0x/Octane",
+  },
+    {
+    title: "Anime World",
+    description:
+      "Anime World is your gateway to the anime universe!Browse, search, and explore your favorite anime series, characters, and trailers ",
+    tags: [
+      "Mobile App",
+      "React Native ",
+      "TypeScript",
+      "Expo",
+      "React Query",
+      "Redux",
+    ],
+    imageUrl: anmieWorld,
+    link: "https://github.com/mostafa0x/Anmie-Wolrd-MobileApp",
   },
   {
     title: "Duck Ai",
